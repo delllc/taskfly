@@ -3,48 +3,48 @@
 ## Фаза 0: Подготовка проекта (30 мин)
 
 ### 0.1 Настройка окружения
-- [ ] Убедиться что Node.js установлен (v18+)
-- [ ] Убедиться что проект создан через Vite + React + TypeScript
+- [x] Убедиться что Node.js установлен (v18+)
+- [x] Убедиться что проект создан через Vite + React + TypeScript
 
 ### 0.2 Установка зависимостей
-- [ ] Установить Zustand для state management
-- [ ] Установить TanStack Query для серверного состояния
-- [ ] Установить React Router v6
-- [ ] Установить и настроить Tailwind CSS v4
-- [ ] Инициализировать shadcn/ui
-- [ ] Установить React Hook Form + Zod
-- [ ] Установить Axios
-- [ ] Установить Lucide React (иконки)
-- [ ] Установить Framer Motion (анимации)
-- [ ] Установить @dnd-kit (drag-n-drop для kanban)
+- [x] Установить Zustand для state management
+- [x] Установить TanStack Query для серверного состояния
+- [x] Установить React Router v6
+- [x] Установить и настроить Tailwind CSS v4
+- [x] Инициализировать shadcn/ui
+- [x] Установить React Hook Form + Zod
+- [x] Установить Axios
+- [x] Установить Lucide React (иконки)
+- [x] Установить Framer Motion (анимации)
+- [x] Установить @dnd-kit (drag-n-drop для kanban)
 
 ### 0.3 Базовая структура
-- [ ] Создать структуру папок согласно README
-- [ ] Настроить path aliases в tsconfig.json (@/ → src/)
-- [ ] Создать .env и .env.example с VITE_API_URL
-- [ ] Настроить Prettier и ESLint
+- [x] Создать структуру папок согласно README
+- [x] Настроить path aliases в tsconfig.json (@/ → src/)
+- [x] Создать .env и .env.example с VITE_API_URL
+- [x] Настроить Prettier и ESLint
 
 ---
 
 ## Фаза 1: Типы и утилиты (1 час)
 
 ### 1.1 Типы
-- [ ] Создать `src/types/auth.types.ts`
+- [x] Создать `src/types/auth.types.ts`
   - User interface
   - LoginRequest, LoginResponse
   - RegisterRequest, RegisterResponse
   - AuthState
-- [ ] Создать `src/types/task.types.ts`
+- [x] Создать `src/types/task.types.ts`
   - Task interface
   - TaskStatus enum (todo, in-progress, done)
   - TaskPriority enum (low, medium, high)
   - CreateTaskRequest, UpdateTaskRequest
-- [ ] Создать `src/types/api.types.ts`
+- [x] Создать `src/types/api.types.ts`
   - ApiError interface
   - PaginatedResponse interface
 
 ### 1.2 Утилиты
-- [ ] Создать `src/lib/utils.ts` с cn() helper (classnames merge)
+- [x] Создать `src/lib/utils.ts` с cn() helper (classnames merge)
 - [ ] Создать `src/lib/constants.ts` с константами приложения
 
 ---
@@ -52,14 +52,14 @@
 ## Фаза 2: API слой (1.5 часа)
 
 ### 2.1 Axios настройка
-- [ ] Создать `src/api/axios.ts`
+- [x] Создать `src/api/axios.ts`
   - Базовый instance с baseURL из env
   - Request interceptor для добавления Authorization header
   - Response interceptor для обработки 401 (logout)
   - Response interceptor для обработки ошибок
 
 ### 2.2 Auth API
-- [ ] Создать `src/api/auth.api.ts`
+- [x] Создать `src/api/auth.api.ts`
   - login(email, password)
   - register(email, username, password)
   - logout()
@@ -67,7 +67,7 @@
   - refreshToken() (если есть на бэке)
 
 ### 2.3 Tasks API
-- [ ] Создать `src/api/tasks.api.ts`
+- [x] Создать `src/api/tasks.api.ts`
   - getTasks(filters, pagination)
   - getTaskById(id)
   - createTask(data)
