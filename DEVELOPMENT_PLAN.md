@@ -79,19 +79,19 @@
 ## Фаза 3: State Management (1.5 часа)
 
 ### 3.1 Auth Store (Zustand)
-- [ ] Создать `src/store/authStore.ts`
+- [x] Создать `src/store/authStore.ts`
   - State: user, token, isAuthenticated, isLoading
   - Actions: setUser, setToken, logout, checkAuth
   - Persist: сохранение token в localStorage
 
 ### 3.2 UI Store (Zustand)
-- [ ] Создать `src/store/uiStore.ts`
+- [x] Создать `src/store/uiStore.ts`
   - State: theme (light/dark), sidebarOpen, activeModal
   - Actions: toggleTheme, toggleSidebar, openModal, closeModal
   - Persist: сохранение theme в localStorage
 
 ### 3.3 Filter Store (Zustand)
-- [ ] Создать `src/store/filterStore.ts`
+- [x] Создать `src/store/filterStore.ts`
   - State: status, priority, search, sortBy
   - Actions: setFilter, resetFilters
   - Синхронизация с URL query params
