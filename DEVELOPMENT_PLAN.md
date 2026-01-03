@@ -101,27 +101,27 @@
 ## Фаза 4: Базовые UI компоненты (2 часа)
 
 ### 4.1 shadcn/ui компоненты
-- [ ] Добавить Button (`npx shadcn@latest add button`)
-- [ ] Добавить Input (`npx shadcn@latest add input`)
-- [ ] Добавить Card (`npx shadcn@latest add card`)
-- [ ] Добавить Dialog (`npx shadcn@latest add dialog`)
-- [ ] Добавить Dropdown Menu (`npx shadcn@latest add dropdown-menu`)
-- [ ] Добавить Select (`npx shadcn@latest add select`)
-- [ ] Добавить Badge (`npx shadcn@latest add badge`)
-- [ ] Добавить Toast/Sonner (`npx shadcn@latest add sonner`)
-- [ ] Добавить Skeleton (`npx shadcn@latest add skeleton`)
-- [ ] Добавить Avatar (`npx shadcn@latest add avatar`)
-- [ ] Добавить Checkbox (`npx shadcn@latest add checkbox`)
-- [ ] Добавить Label (`npx shadcn@latest add label`)
-- [ ] Добавить Popover (`npx shadcn@latest add popover`)
-- [ ] Добавить Calendar (`npx shadcn@latest add calendar`)
+- [x] Добавить Button (`npx shadcn@latest add button`)
+- [x] Добавить Input (`npx shadcn@latest add input`)
+- [x] Добавить Card (`npx shadcn@latest add card`)
+- [x] Добавить Dialog (`npx shadcn@latest add dialog`)
+- [x] Добавить Dropdown Menu (`npx shadcn@latest add dropdown-menu`)
+- [x] Добавить Select (`npx shadcn@latest add select`)
+- [x] Добавить Badge (`npx shadcn@latest add badge`)
+- [x] Добавить Toast/Sonner (`npx shadcn@latest add sonner`)
+- [x] Добавить Skeleton (`npx shadcn@latest add skeleton`)
+- [x] Добавить Avatar (`npx shadcn@latest add avatar`)
+- [x] Добавить Checkbox (`npx shadcn@latest add checkbox`)
+- [x] Добавить Label (`npx shadcn@latest add label`)
+- [x] Добавить Popover (`npx shadcn@latest add popover`)
+- [x] Добавить Calendar (`npx shadcn@latest add calendar`)
 
 ---
 
 ## Фаза 5: Layout компоненты (2 часа)
 
 ### 5.1 Header
-- [ ] Создать `src/components/layout/Header.tsx`
+- [x] Создать `src/components/layout/Header.tsx`
   - Логотип слева
   - Поиск по центру (опционально)
   - Переключатель темы
@@ -129,7 +129,7 @@
   - Адаптивность: hamburger menu на мобильных
 
 ### 5.2 Sidebar
-- [ ] Создать `src/components/layout/Sidebar.tsx`
+- [x] Создать `src/components/layout/Sidebar.tsx`
   - Навигационные ссылки (Dashboard, Tasks)
   - Иконки для каждого пункта
   - Активное состояние для текущей страницы
