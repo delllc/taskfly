@@ -20,7 +20,7 @@ export const register = async ({
   password,
   username,
 }: RegisterRequest): Promise<AuthResponse> => {
-  const response = await api.post('/auth/signup', {
+  const response = await api.post('/api/auth/signup', {
     email,
     password,
     username,
@@ -31,5 +31,5 @@ export const register = async ({
 };
 
 export const logout = async (): Promise<void> => {
-  localStorage.remove('access_token');
+  localStorage.removeItem('access_token');
 };

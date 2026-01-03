@@ -26,9 +26,6 @@ export interface AuthState {
   token: string | null;
 
   isAuthenticated: boolean;
-
-  isLoading: boolean;
-
-  login: (emaiL: string, password: string) => Promise<void>;
-  logout: () => void;
+  setAuth: (user: User, token: string) => void;
+  clearAuth: () => void;
 }
